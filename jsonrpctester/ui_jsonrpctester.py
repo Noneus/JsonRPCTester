@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'jsonrpctester/jsonrpctester.ui'
 #
-# Created: Sun Jan  4 21:45:14 2015
+# Created: Sun Jan  4 22:02:46 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -68,6 +68,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.textEditResult = QtGui.QTextEdit(self.groupBoxResult)
+        self.textEditResult.setEnabled(False)
         self.textEditResult.setObjectName("textEditResult")
         self.horizontalLayout_4.addWidget(self.textEditResult)
         self.horizontalLayout.addWidget(self.groupBoxResult)
